@@ -16,6 +16,15 @@ A simple world clock desktop app built with Python and PyQt5 to help avoid time 
 
 ![World Clock Screenshot](./screenshot.png)
 
+## Modify Default Time Zones
+
+The current code defaults to the current time zones
+
+```
+reference_zones = ['US/Eastern', 'US/Pacific', 'Europe/Paris', 'Asia/Kolkata', 'Asia/Tokyo']
+```
+You can modify this variable if you'd like different time zones everytime you run the app.  
+
 ## 🚀 Running the App
 
 ### Option 1: Run from Source

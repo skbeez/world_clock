@@ -97,6 +97,7 @@ class TimeZoneApp(QWidget):
             widget = TimeZoneWidget(tz)
             self.timezone_widgets.append(widget)
             self.clock_row.addWidget(widget)
+            widget.combo.currentTextChanged.connect(self.update_projected_times)
 
         self.main_layout.addLayout(self.clock_row)
 
