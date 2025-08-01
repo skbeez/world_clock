@@ -23,3 +23,12 @@ A simple world clock desktop app built with Python and PyQt5 to help avoid time 
 ```bash
 pip install -r requirements.txt
 python main.py
+```
+
+### Option 2: Build and Run Executable
+
+```bash
+pip install pyinstaller
+pyinstaller main.spec
+```
+The executeable will be in dist/World Clock.exe
